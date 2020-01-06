@@ -35,7 +35,7 @@ export class SortingVisualizer extends React.Component{
     resetArray(){
         const array = [];
         for (let i=0; i<NUMBER_OF_BARS; i++){
-            array.push(randomFromInterval(5, 700));
+            array.push(randomFromInterval(5, 650));
         }
         this.setState({array});
     }
