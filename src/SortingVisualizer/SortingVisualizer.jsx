@@ -8,7 +8,7 @@ import {Navbar, Nav, Container} from 'react-bootstrap';
 
 
 // Number of bars appearing in the visualizer
-const NUMBER_OF_BARS = 350;
+const NUMBER_OF_BARS = 300;
 
 // Main color of bars
 const PRIMARY_COLOR = 'turquoise';
