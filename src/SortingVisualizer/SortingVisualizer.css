@@ -1,14 +1,29 @@
-.array-container {
-    position: absolute;
-    text-align: center;
-    left: 100px;
-    right: 100px;
-    top: 100px;
-    padding-bottom: 50px;
-}
-  
 .array-bar {
     width: 2px;
     display: inline-block;
     margin: 0 1px;
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+    .array-container{
+        position: absolute;
+        text-align: center;
+        left: 15%;
+        right: 15%;
+        top: 15%;
+        bottom: 15%;
+    }
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+    .array-container{
+        position: absolute;
+        text-align: center;
+        left: 15%;
+        right: 15%;
+        top: 15%;
+        bottom: 15%;
+    }
 }
