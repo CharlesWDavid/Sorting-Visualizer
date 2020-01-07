@@ -168,7 +168,7 @@ export class SortingVisualizer extends React.Component{
                   </Nav>
                 </Container>
                 </Navbar>
-                <div className="array-container" ref={this.myRef}>
+                <div className="array-container">
                     {array.map((value, idx) => (
                         <div
                             className="array-bar"
